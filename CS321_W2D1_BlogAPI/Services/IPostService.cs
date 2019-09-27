@@ -10,5 +10,6 @@ namespace CS321_W2D1_BlogAPI.Services
         Post Get(int id);
         Post Add(Post post);
         void Remove(Post post);
+        Post Update(Post post);
     }
 }
